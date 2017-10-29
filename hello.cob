@@ -3,4 +3,4 @@
        ENVIRONMENT DIVISION.
        DATA DIVISION.
        PROCEDURE DIVISION.
-           DISPLAY "こんにちは。".
+           DISPLAY "Hello".
