@@ -3,7 +3,4 @@
        ENVIRONMENT DIVISION.
        DATA DIVISION.
        PROCEDURE DIVISION.
-       MAIN SECTION.
            DISPLAY 'Hello World!'.
-       MAIN-EXIT.
-           GOBACK.
