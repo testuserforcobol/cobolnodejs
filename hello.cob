@@ -6,3 +6,4 @@
        MAIN SECTION.
            DISPLAY 'Hello World!'.
        MAIN-EXIT.
+           GOBACK.
