@@ -3,4 +3,4 @@
        ENVIRONMENT DIVISION.
        DATA DIVISION.
        PROCEDURE DIVISION.
-           DISPLAY "Hello World! AF".
+           DISPLAY "Hello World!".
