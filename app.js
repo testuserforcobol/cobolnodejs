@@ -10,8 +10,10 @@ const hookConsoleLog = (logs) => {
 };
 
 
-const defaultAccessToken = 'Meibx80EfJcZLqbykv+AjhxA3NeCwGD7fdRLVX9BijrRYN/ePVuZX7M4Z2XZy8esN5NVJ6EbBESBDuI9/f+up2VOD69zd3zXJuCbgpQtB4Ef7ztNA8WSgCz1Xt5HD7if30pnDA1J14WmluhzR3c1mwdB04t89/1O/w1cDnyilFU=';
-const defaultSecret = '413829a91d6b1579b452c44969153e2d';
+const defaultAccessToken = 'defaultValue';
+const defaultSecret = 'defaultValue';
+//const defaultAccessToken = 'Meibx80EfJcZLqbykv+AjhxA3NeCwGD7fdRLVX9BijrRYN/ePVuZX7M4Z2XZy8esN5NVJ6EbBESBDuI9/f+up2VOD69zd3zXJuCbgpQtB4Ef7ztNA8WSgCz1Xt5HD7if30pnDA1J14WmluhzR3c1mwdB04t89/1O/w1cDnyilFU=';
+//const defaultSecret = '413829a91d6b1579b452c44969153e2d';
 
 const config = {
   channelAccessToken: process.env.CHANNEL_ACCESS_TOKEN || defaultAccessToken,
