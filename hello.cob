@@ -11,4 +11,4 @@
                DISPLAY "Hello World!"
                ADD 1 TO FLG-FS
            END-PERFORM.
-           STOP RUN.
+           EXIT PROGRAM.
