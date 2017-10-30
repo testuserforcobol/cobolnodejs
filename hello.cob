@@ -3,13 +3,12 @@
        ENVIRONMENT DIVISION.
        DATA DIVISION.
        WORKING-STORAGE SECTION.
-           01 CNT PIC 9(10).
+           01  FLG-FS.
        PROCEDURE DIVISION.
-       MAIN SECTION.
-           MOVE 0 TO CNT.
-           PERFORM UNTIL CNT = 10
-               DISPLAY 'Hello World!'
-               COMPUTE CNT = CNT + 1
+       MAIN.
+           MOVE 1 TO FLG-FS.
+           PERFORM UNTIL FLG-FS > 5
+               DISPLAY "Hello World!"
+               ADD 1 TO FLG-FS
            END-PERFORM.
-       EXIT-SECTION.
-           EXIT PROGRAM.
+           STOP RUN.
