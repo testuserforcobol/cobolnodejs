@@ -8,7 +8,7 @@
        MAIN SECTION.
            MOVE 0 TO CNT.
            PERFORM UNTIL CNT = 10
-               DISPLAY 'HelloWorld!'
+               DISPLAY 'Hello World!'
                COMPUTE CNT = CNT + 1
            END-PERFORM.
        EXIT-SECTION.
