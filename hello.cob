@@ -6,8 +6,6 @@
            01  FLG-FS.
        PROCEDURE DIVISION.
            MOVE 1 TO FLG-FS.
-           PERFORM UNTIL FLG-FS > 5
                DISPLAY "Hello World!"
                ADD 1 TO FLG-FS
-           END-PERFORM.
            EXIT PROGRAM.
