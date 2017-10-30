@@ -2,5 +2,14 @@
        PROGRAM-ID. COBOLNODEJS.
        ENVIRONMENT DIVISION.
        DATA DIVISION.
+       WORKING-STORAGE SECTION.
+           01 CNT PIC 9(10).
        PROCEDURE DIVISION.
-           DISPLAY 'Hello World!'.
+       MAIN SECTION.
+           MOVE 0 TO CNT.
+           PERFORM UNTIL CNT = 10
+               DISPLAY 'Hello World!'
+               COMPUTE CNT = CNT + 1
+           END-PERFORM.
+       EXIT-SECTION.
+           EXIT PROGRAM.
