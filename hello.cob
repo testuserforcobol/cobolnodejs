@@ -3,7 +3,6 @@
        ENVIRONMENT DIVISION.
        DATA DIVISION.
        WORKING-STORAGE SECTION.
-           01  FLG-FS.
        PROCEDURE DIVISION.
-               DISPLAY "Hello World!".
+           DISPLAY "Hello World!".
            EXIT PROGRAM.
