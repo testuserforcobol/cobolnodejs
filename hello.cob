@@ -5,4 +5,3 @@
        WORKING-STORAGE SECTION.
        PROCEDURE DIVISION.
            DISPLAY "Hello World!".
-           EXIT PROGRAM.
